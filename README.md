@@ -9,8 +9,11 @@ Este proyecto analiza el comportamiento de los clientes de un programa de lealta
 ## Estructura del proyecto
 ```
 ├── data/
-│   ├── Customer Flight Analysis.csv
-│   └── Customer Loyalty History.csv
+│   ├── customer_flight_activity.csv
+│   ├── customer_loyalty_history.csv
+│   ├── clean_customer_flight_activity.csv
+│   ├── clean_customer_loyalty_history.csv
+│   └── merged_customer_flight_loyalty.csv
 ├── f1_exploracion_limpieza.ipynb
 ├── f2_analisis_cats_nums.ipynb
 ├── f3_visualizacion.ipynb
